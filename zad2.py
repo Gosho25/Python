@@ -1,14 +1,26 @@
-def string_to_number(string):
-    try:
-        number = float(string)
-        return number
-    except ValueError:
-        print(f'"{string}" is not number')
+class Polygon:
+    def p_disp(self):
+        print("object is a Polygon")
 
-string1 = "123.45"
-num1 = string_to_number(string1)
-print(f'"{string1}"={num1}')
+class Rectangle(Polygon):
+    def r_disp(self):
+        print("object is a Rectangle")
 
-string2 = "abc"
-num2 = string_to_number(string2)
-print(f'"{string2}"= {num2}')
+
+class Square(Rectangle):
+    def s_disp(self):
+        print("object is a Square")
+
+
+
+polygon = Polygon()
+rectangle = Rectangle()
+square = Square()
+
+
+polygon.p_disp()   
+rectangle.p_disp() 
+rectangle.r_disp() 
+square.p_disp()    
+square.r_disp()    
+square.s_disp()    
