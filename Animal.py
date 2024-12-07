@@ -28,4 +28,4 @@ tiger = Tiger("Sher Khan", "Bengal")
 elephant = Elephant("Dumbo", "African")
 
 tiger.display()
-elephant.display()
+elephant.display() 
