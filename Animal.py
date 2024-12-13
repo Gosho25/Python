@@ -1,7 +1,7 @@
 class Animal:
     def __init__(self, name, species):
         self.name = name
-        self.species = species
+        self.species = species 
  
     def display(self):
         return f"Name: {self.name}, Species: {self.species}"
