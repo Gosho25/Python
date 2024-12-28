@@ -20,7 +20,7 @@ class Elephant(Animal):
     def __init__(self, name, breed):
         super().__init__(name, "Elephant")
         self.breed = breed
-
+ 
     def display(self):
         print(f"{super().display()}, Breed: {self.breed}")
 
