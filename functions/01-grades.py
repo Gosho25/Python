@@ -1,6 +1,6 @@
 def assessment(assesment):
     assessment = float(input())
-    for assesment in range(2.00, 6.00):
+    for assesment in range(2.00, 6.00): 
         if assesment <= 2.99:
             print("Fail")
         elif assesment  >= 3.00 or  3.49:
