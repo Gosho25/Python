@@ -3,7 +3,7 @@ class Animal:
         self.name = name 
         self.species = species 
  
-    def display(self):
+    def display(self): 
         return f"Name: {self.name}, Species: {self.species}"
 
 
