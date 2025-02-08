@@ -12,7 +12,7 @@ class Tiger(Animal):
         super().__init__(name, "Tiger")
         self.breed = breed
 
-    def display(self):
+    def display(self):#this is method(NOT function :))))) )
         print(f"{super().display()}, Breed: {self.breed}")
 
 
